@@ -1,0 +1,59 @@
+{
+  "tests": [
+    {
+      "id": "sample-test-1",
+      "name": "API Health Check Test",
+      "description": "Basic health check test cases",
+      "cases": [
+        {
+          "name": "Health endpoint returns 200",
+          "input_key": "health",
+          "expected": {
+            "status": "healthy"
+          },
+          "timeout": 5000
+        }
+      ],
+      "created_at": "2024-01-15T10:30:00.000Z",
+      "updated_at": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "sample-test-2",
+      "name": "Math Calculator Test",
+      "description": "Test basic arithmetic operations",
+      "cases": [
+        {
+          "name": "Addition: 2 + 3 = 5",
+          "input_key": "add",
+          "input": {
+            "a": 2,
+            "b": 3
+          },
+          "expected": 5
+        }
+      ],
+      "created_at": "2024-01-15T11:00:00.000Z",
+      "updated_at": "2024-01-15T11:00:00.000Z"
+    },
+    {
+      "id": "9d15b31a-e560-4568-869f-a473cef6cfdc",
+      "name": "My New Test",
+      "description": "Testing user login",
+      "cases": [
+        {
+          "name": "Valid login",
+          "input_key": "login",
+          "input": {
+            "email": "user@test.com",
+            "password": "123456"
+          },
+          "expected": {
+            "success": true
+          }
+        }
+      ],
+      "created_at": "2026-04-23T21:51:10.716627",
+      "updated_at": "2026-04-23T21:51:10.716627"
+    }
+  ]
+}
